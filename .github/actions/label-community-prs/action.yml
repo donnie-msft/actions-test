@@ -1,0 +1,5 @@
+name: 'Label community PRs'
+description: 'Label PRs opened by people without contributor access to repo'
+runs:
+  using: 'node12'
+  main: 'index.js'

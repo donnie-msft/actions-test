@@ -4,4 +4,5 @@ jobs:
   label-community-pr:
     runs-on: ubuntu-latest
     steps:
-      - run: env
+      - uses: actions/checkout@v2
+      - uses: ./.github/actions/label-community-prs
