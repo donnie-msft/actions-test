@@ -1,0 +1,7 @@
+name: pull-request-opened
+on: [pull_request]
+jobs:
+  label-community-pr:
+    runs-on: ubuntu-latest
+    steps:
+      run: env
